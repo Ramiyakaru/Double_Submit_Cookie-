@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<title>Cross Site Request Forgery Protection</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+</head>
+<body background="css/images/back.jpg">
+    
+    <h2 style="font-family:Calibri;" class="heading">Cross Site Request Forgery - Double Submit Cookies Pattern </h2>
+    
+    <div class="container">
+        
+        <form  method="POST" action="login.php">
+            <div class="form-input">
+                <label class="uname">Username:</label>  
+                <input class="w3-input w3-border" type="text" name="user_name"  placeholder="Username" style="width:300px;" autocomplete="off">
+            </div>
+            <div class="form-input">
+                <label class="pwd">Password:</label>
+                <input class="w3-input w3-border" type="password" name="user_pswd" autocomplete="off" placeholder="Password" style="width:300px;">
+            </div><br>
+            <input type="submit" name="submit" class="login_btn" value="Login"/>
+
+        </form>
+    </div>
+
+</body>
+</html>

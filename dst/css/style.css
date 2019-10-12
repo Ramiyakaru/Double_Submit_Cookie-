@@ -1,0 +1,70 @@
+body{
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.container {
+    width:350px;
+    height:400px;
+    opacity: 0.6;
+    background: black;
+    position: fixed;
+    right: 38%;
+    top: 20%;
+}
+
+input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.uname {
+    color: white; /* username label*/
+    font-size:18px;
+}
+
+.pwd {
+    color: white;  /* password laber*/
+    font-size:18px;
+}
+
+.form-input{
+    padding: 16px;
+}
+
+.login_btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 10px 40px;
+    position: fixed;
+    position:relative;
+    left:30%;
+}
+
+.login_btn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+/*end of css for main.html*/
+
+/*.update{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 200px;
+}*/
+
