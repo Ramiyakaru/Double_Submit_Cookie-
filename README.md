@@ -1,4 +1,4 @@
-# Double_Submit_Cookie
+# Double_Submit_Cookie Pattern
 CSRF Protection - Double Submit Cookie Pattern
 ----------------------------------------------
 IT No: IT17171984 
