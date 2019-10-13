@@ -8,4 +8,7 @@ Name: A.K.R.D. Karunadasa
 3. Start Apache server from xampp control panel
 4. Access logging page using: localhost/dst/index.html
 ----------------------------------------------
-username: admin password: admin
+username: admin 
+password: admin
+----------------------------------------------
+Blog link: https://medium.com/@ramireigns/double-submit-cookies-pattern-df09cc70eea
